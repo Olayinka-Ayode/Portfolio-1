@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./output.css">
+    <script src="./app.js" defer></script>
+    <script src="https://kit.fontawesome.com/35f12e8b00.js" crossorigin="anonymous"></script>
+</head>
+<body class="font-sans bg-body_background text-white">
+    <header class="fixed flex-row top-0 left-0 w-full bg-body_background header flex justify-between items-center z-50">
+        <div class="nav flex flex-row justify-between w-full items-center">
+            <a href="#" class="text-2xl text-white font-semibold logo relative">Olayinka.</a>
+            <ul id="ham-menu" class="md:hidden">
+                <li id="top" class="ham"></li>
+                <li id="mid" class="ham"></li>
+                <li id="bottom" class="ham"></li>
+            </ul>
+            <nav id="menu" class="absolute md:static top-20 hidden md:flex md:flex-row flex-col left-0 bg-body_background md:bg-inherit w-full md:w-fit rounded-bl-lg">
+                <a href="#home" class="active p-5 md:p-0 border-b-2 md:border-b-0">Home</a>
+                <a href="#about" class="p-5 md:p-0 border-b-2 md:border-b-0">About</a>
+                <a href="#services" class="p-5 md:p-0 border-b-2 md:border-b-0">Services</a>
+                <a href="#portfolio" class="p-5 md:p-0 border-b-2 md:border-b-0">Portfolio</a>
+                <a href="#contact" class="p-5 md:p-0">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="flex items-center h-screen home relative md:mt-0 mt-52">
+        <div class="home-content">
+            <h1 class="font-bold relative">Hi, I'm Olayinka</h1>
+            <h3 class="text-4xl font-bold relative text-skyblue">Frontend Developer</h3>
+            <p class="text-base relative">As a frontend developer with a focus on vanilla JavaScript and Tailwind CSS, I specialize in creating engaging and interactive user interfaces for websites and web applications. I leverage the power of JavaScript to implement dynamic functionalities, enhance user experience, and ensure smooth interactivity. By utilizing Tailwind CSS, I efficiently design and style the UI components, leveraging its utility-based approach to achieve consistent and visually appealing layouts. With my expertise, I bring ideas to life by seamlessly combining JavaScript's functionality with the sleek aesthetics provided by Tailwind CSS, resulting in intuitive and responsive user interfaces.</p>
+            <div class="w-80 h-14 btn-box">
+                <a href="mailto:theolayinkayodele@gmail.com" target="_blank" class="hover:text-skyblue w-40 h-full inline-flex justify-center items-center bg-skyblue border-2 border-solid border-skyblue rounded-lg text-lg text-body_background font-bold tracking-wider relative">Let's Talk</a>
+            </div>
+        </div>
+        <div class="home-links hidden md:flex absolute bottom-10 w-56 justify-between">
+            <a href="https://instagram.com/thedev001?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/Olayinka-Ayode" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://twitter.com/Olayinka3463063" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://linkedin.com/in/olayinka-ayode" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://wa.me/message/BKNTED25LSVOM1" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </section>
+    <section id="about" class="about flex items-center justify-center flex-col md:mt-5 mt-56">
+        <div class="about-sect flex items-center justify-center flex-col w-full">
+            <h1 class="text-4xl font-bold mb-5 about-head relative">About Me.</h1>
+            <div class="container flex justify-around items-center flex-col md:flex-row text-center about-container relative pl-20 pr-20">
+                <div class="about-img mb-16">
+                    <img src="./Yinka.jpg" alt="Yinka">
+                </div>
+                <div class="about-text max-w-xl relative">
+                    <h2 class="font-bold text-4xl pb-10">Olayinka Ayodele</h2>
+                    <p class="text-left">Welcome to my page! I'm Olayinka. I'm a lifelong learner passionate about web development, coding, and software development generally. I make use of Vanilla JavaScript and Tailwind CSS to build responsive and functional websites. Please get in contact with me. Thanks for visiting!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="services">
+        <div class="tech-stack pt-20 w-full">
+            <h1 class="relative text-4xl font-bold mb-10 text-center">My Tech Stack.</h1>
+            <div class="contanier flex justify-between items-center w-full">
+                <div class=""><img src="./HTML-removebg-preview (1).png" alt=""></div>
+                <div class=""><img src="./CSS-removebg-preview-removebg-preview (1).png" width="85%"></div>
+                <div class=""><img src="./Javascript-removebg-preview-removebg-preview (3).png" width="85%"></div>
+                <div class=""><img src="./tailwind-removebg-preview.png" width="80%"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="mt-20">
+        <h1 class="relative text-4xl font-bold mb-20 text-center">Previous Projects.</h1>
+        <div class="flex w-full md:flex-row flex-col flex-wrap items-center md:justify-between">
+            <div class="card relative">
+                <div class="img relative h-1/4 md:h-full">
+                    <img src="./Zen Vibes.png" class="relative rounded-3xl h-full">
+                    <div class="text absolute top-0 left-3/4 bg-body_background h-full">
+                        <p class="relative top-1/4 text-white font-bold bg-body_background">Landing Page</p>
+                        <span class="relative top-1/3 w-full">&#x2022; Tailwind CSS</span>
+                        <span class="relative top-1/3 w-full">&#x2022; JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card relative">
+                <div class="img relative h-full">
+                    <img src="./Notes App.png" class="relative rounded-3xl h-full">
+                    <div class="text absolute top-0 left-3/4 bg-body_background h-full">
+                        <p class="relative top-1/4 text-white font-bold bg-body_background">Note App</p>
+                        <span class="relative top-1/3 w-full">&#x2022; Tailwind CSS</span>
+                        <span class="relative top-1/3 w-full">&#x2022; JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card relative">
+                <div class="img relative h-full w-fit">
+                    <a href="https://calculator-js-liard-ten.vercel.app/" target="_blank">
+                        <img src="./Calculator.png" class="relative rounded-3xl h-full">
+                    </a>
+                    <div class="text absolute top-0 left-3/4 bg-body_background h-full w-full">
+                        <h2 class="relative top-1/4 text-white font-bold bg-body_background">Calculator</h2>
+                        <p class="relative top-1/3 w-full">&#x2022; Vanilla CSS</p>
+                        <p class="relative top-1/3 w-full">&#x2022; JavaScript</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card relative">
+                <div class="img relative h-full">
+                    <a href="https://tailwind-site-two.vercel.app/" target="_blank">
+                        <img src="./Landing Page 1.png" class="relative rounded-3xl h-full">
+                    </a>
+                    <div class="text absolute top-0 left-3/4 bg-body_background h-full">
+                        <p class="relative top-1/4 text-white font-bold bg-body_background">Landing Page</p>
+                        <span class="relative top-1/3 w-full">&#x2022; Tailwind CSS</span>
+                        <span class="relative top-1/3 w-full">&#x2022; JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card relative">
+                <div class="img relative h-full">
+                    <a href="https://manage-two-khaki.vercel.app/" target="_blank">
+                        <img src="./Tailwind Landing Page.png" class="relative rounded-3xl h-full">
+                    </a>
+                    <div class="text absolute top-0 left-3/4 bg-body_background h-full">
+                        <p class="relative top-1/4 text-white font-bold bg-body_background">Landing Page</p>
+                        <span class="relative top-1/3 w-full">&#x2022; Tailwind CSS</span>
+                        <span class="relative top-1/3 w-full">&#x2022; JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card relative">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-gray-700">
+        <footer>
+            <h1 class="relative text-4xl font-bold mb-10 text-center">Get In Touch</h1>
+        </footer>
+        <div class="footer flex justify-around flex-col items-center">
+            <div class="home-links bottom-10 w-56 flex justify-between mb-5">
+                <a href="https://instagram.com/thedev001?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/Olayinka-Ayode" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/Olayinka3463063" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://linkedin.com/in/olayinka-ayode" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://wa.me/message/BKNTED25LSVOM1" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            Copyright &copy; Ayodele Olayinka 2023
+        </div>
+    </section>
+</body>
+</html>
