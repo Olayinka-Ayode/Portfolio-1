@@ -713,10 +713,6 @@ video {
   border-radius: 0.5rem;
 }
 
-.rounded-full {
-  border-radius: 9999px;
-}
-
 .rounded-bl-lg {
   border-bottom-left-radius: 0.5rem;
 }
@@ -842,8 +838,8 @@ video {
 
 .header{
   padding: 20px 10%;
-  box-shadow: 15px 15px 10px #000,
-    -15px -15px 10px #00ABF0;
+  /* box-shadow: 15px 15px 10px #000,
+    -15px -15px 10px #00ABF0; */
 }
 
 nav a {

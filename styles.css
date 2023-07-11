@@ -12,8 +12,8 @@
 
 .header{
     padding: 20px 10%;
-    box-shadow: 15px 15px 10px #000,
-    -15px -15px 10px #00ABF0;
+    /* box-shadow: 15px 15px 10px #000,
+    -15px -15px 10px #00ABF0; */
 }
 
 nav a {
