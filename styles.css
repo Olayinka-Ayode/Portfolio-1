@@ -29,6 +29,11 @@ nav a:hover, nav a.active{
     color: #00ABF0;
 }
 
+#menu{
+    top: 70px;
+    left: -30px;
+}
+
 .home{
     padding: 0 10%;
 }

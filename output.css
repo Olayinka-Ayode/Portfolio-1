@@ -588,10 +588,6 @@ video {
   top: 25%;
 }
 
-.top-20 {
-  top: 5rem;
-}
-
 .z-50 {
   z-index: 50;
 }
@@ -881,6 +877,11 @@ nav a {
 
 nav a:hover, nav a.active{
   color: #00ABF0;
+}
+
+#menu{
+  top: 70px;
+  left: -30px;
 }
 
 .home{
