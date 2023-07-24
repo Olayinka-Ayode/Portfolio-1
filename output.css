@@ -1187,6 +1187,10 @@ nav a:hover, nav a.active{
     width: fit-content;
   }
 
+  .md\:w-1\/4 {
+    width: 25%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
