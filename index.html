@@ -28,7 +28,7 @@
         </div>
     </header>
 
-    <section class="flex items-center h-screen home relative md:mt-0 mt-52">
+    <section id="home" class="flex items-center h-screen home relative md:mt-0 mt-52">
         <div class="home-content">
             <h1 class="font-bold relative">Hi, I'm Olayinka</h1>
             <h3 class="text-4xl font-bold relative text-skyblue">Frontend Developer</h3>
@@ -165,17 +165,31 @@
 
     <section id="contact" class="">
         <footer>
-            <h1 class="relative text-4xl font-bold mb-10 text-center">Get In Touch</h1>
+            <h1 class="relative text-4xl font-bold mb-10 text-center p-12">Get In Touch</h1>
         </footer>
-        <div class="footer flex justify-around flex-col items-center">
-            <div class="home-links bottom-10 md:w-1/4 flex justify-between mb-5">
+        <div class="flex justify-around flex-col">
+            <div class="form md:w-1/2 pl-16 pr-16">
+                <form action="https://formsubmit.co/3cd3960b576816e415bf64ada371145d" method="POST" class="flex flex-col">
+                    <input type="text" name="name" placeholder="Name" class="mb-10 px-8 py-6 rounded-3xl text-black text-lg" required>
+                    <input type="email" name="email" placeholder="Email Address" class="mb-10 px-8 py-6 rounded-3xl text-black text-lg" required>
+                    <textarea name="message" id="message" class="px-8 py-6 rounded-3xl text-black text-lg" placeholder="Message . . ."></textarea>
+                    <input type="hidden" name="_next" value="https://portfolio-1-zeta-five.vercel.app/">
+                    <input type="hidden" name="_subject" value="Portfolio Site!!!">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_autoresponse" value="Thanks for your Feedback!">
+                    <button type="submit" class="px-12 py-4 bg-body_background w-fit hover:font-bold rounded-xl mt-10 border hover:bg-skyblue hover:text-body_background border-solid text-skyblue border-skyblue">Send</button>
+               </form>
+            </div>
+            <!-- <div class="home-links bottom-10 md:w-1/4 flex justify-between mb-5">
                 <a href="https://instagram.com/thedev001?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://github.com/Olayinka-Ayode" target="_blank"><i class="fa-brands fa-github"></i></a>
                 <a href="https://twitter.com/Olayinka3463063" target="_blank"><i class="fa-brands fa-twitter"></i></a>
                 <a href="https://linkedin.com/in/olayinka-ayode" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://wa.me/message/BKNTED25LSVOM1" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-            </div>
-            Copyright &copy; Ayodele Olayinka 2023
+            </div> -->
+            <p class="text-center">
+                Copyright &copy; Ayodele Olayinka 2023
+            </p>
         </div>
     </section>
 </body>
