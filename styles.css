@@ -291,6 +291,11 @@ textarea{
     height: 300px;
 }
 
+
+.form form input, .form form textarea{
+    width: 700px;
+}
+
 @keyframes text {
     100%{
         width: 0;
@@ -311,5 +316,9 @@ textarea{
 
     textarea{
         height: 150px;
+    }
+
+    .form form input, .form form textarea{
+        width: 368px;
     }
 }
